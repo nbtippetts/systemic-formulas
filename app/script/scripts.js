@@ -9,16 +9,10 @@ $(document).ready(function(){
               headerShow.removeClass("header").addClass("showing");
           } else {
               headerShow.removeClass("showing").addClass("header");
+          };
+          if (scroll <= 6) {
+            $('logo').hide();
           }
-          if (scroll > 4){
-            $('.logo').hide();
-          }
-          else {
-            $('.logo').show();
-          }
+        })
       });
   });
-
-
-
-});
