@@ -3,6 +3,7 @@ $(document).ready(function(){
   $(function fixHead() {
       var headerShow = $(".header");
       var showLogo = $('.logocontainer');
+      var logos = $('.logo');
       $(window).scroll(function() {
           var scroll = $(window).scrollTop();
 
@@ -11,18 +12,17 @@ $(document).ready(function(){
           } else {
               headerShow.removeClass("showing").addClass("header");
           };
-          if (scroll >= 6) {
+          if (scroll >= 3) {
             showLogo.removeClass("logocontainer").addClass("logoshow");
           } else {
               showLogo.removeClass("logoshow").addClass("logocontainer");
           }
-          if (scroll >= 8){
-            $('.logo').hide();
+          if (scroll > 6){
+            logos.fadeOut(1500);
           }
           else {
-            $('.logo').show();
+            logos.fadeIn(1500);
           }
         })
       })
-
-  
+    });
