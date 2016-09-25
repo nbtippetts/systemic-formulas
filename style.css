@@ -145,6 +145,7 @@ html, body {
    flex-direction: column;
  }
 
+
 .logo span {
   box-sizing: border-box;
   color: #101f38;
@@ -155,17 +156,20 @@ html, body {
   text-shadow: 2px 2px #e7e7dc;
 }
 
+
 #events {
   margin-top: -18%;
   font-size: 4em;
   font-family: cursive;
 }
 
+
 #pde {
 
   font-size: 1.4em;
   font-family: serif;
 }
+
 
 #box-to-box-container {
   width: 100%;
@@ -174,6 +178,7 @@ html, body {
   justify-content: center;
   background-color: white;
 }
+
 
 .box-move {
   border-radius: 5px;
@@ -184,8 +189,9 @@ html, body {
   background-color: #101f38;
   align-self: center;
   margin-left: 10px;
-  transition-duration: 2s;
+  transition-duration: 4s;
 }
+
 
 .body-container-first {
   width: 100%;
@@ -193,11 +199,13 @@ html, body {
   box-sizing: border-box;
 }
 
+
 .left-contain {
   float: right;
   text-align: justify;
   letter-spacing: 0.05em;
 }
+
 
 .right-contain {
       display: flex;
@@ -214,6 +222,7 @@ html, body {
   display: inline-flex;
   flex-direction: column;
 }
+
 
 .mission-statement p {
   font-size: 1.7em;
@@ -237,16 +246,12 @@ html, body {
 }
 
 
-.cardcontainer {
+#cardcontainer {
   background-color: white;
-  border-style: outset;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin-top: 1%;
-  position: absolute;
-}
 
+}
 
 .tiffsCard {
   width: 100%;
@@ -255,55 +260,60 @@ html, body {
 }
 
 .divbox1 {
-  height: 30px;
+  height: 35px;
   display: flex;
   flex: 1;
-  border-right: 15px solid white;
+  border-right: 20px solid white;
   background-color: #e4c8b5;
+  border-top-style: outset;
+  border-width: thick;
+  padding-bottom: 1%;
 }
 
  .divbox2 {
-  height: 30px;
+  height: 35px;
   display: flex;
   flex-grow: 2;
   border-right: 20px solid white;
+  border-top-style: outset;
   background-color: #7dc6b6;
+  border-width: thick;
+  padding-bottom: 1%;
 }
 
  .divbox3 {
-  height: 30px;
+  height: 35px;
   display: flex;
   flex: 1;
   background-color: #101f38;
+  border-top-style: outset;
+  border-width: thick;
+  padding-bottom: 1%;
 }
 
 .cardcontent {
-  font-size: 1.5em;
+  font-size: 2em;
   display: flex;
   flex-direction: column;
   color: #101f38;
-  text-align: right;
-  padding-right: 5%;
+  text-align: inherit;
+  text-align: center;
  }
 
  .cardcontent span {
-   font-size: 0.7em;
+   font-size: 0.9em;
    display: flex;
+   align-self: center;
    flex-direction: column;
    color: #7dc6b6;
    padding-bottom: 3%;
-   padding-right: 5%;
-   text-align: right;
   }
-
-
-
 
 .cardinfo {
   font-size: 1em;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-self: center;
 }
 
 .img-1 {
@@ -311,13 +321,12 @@ html, body {
   flex-direction: column;
   border-style: outset;
   border-width: thick;
-  justify-content: space-around;;
   height: 100%;
   width: inherit;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-right: 1%;
-  clear: right;
+  margin-right: 0.6%;
+  background-color: white;
 }
 
 .img-1 a {
@@ -331,10 +340,12 @@ html, body {
   border-style: outset;
   border: 5px solid #e4c8b5;
   color: #e7e7dc;
-  font-size: 2em;
-  font-family: cursive;
+  font-size: 3em;
+  font-family: Amatic SC;
+  text-shadow: 1.5px 2.5px 3px #7dc6b6;
   width: 100%;
-  line-height: 1.4em;
+  line-height: 1em;
+  cursor: pointer;
 }
 
 .img-1 button:hover {
@@ -342,24 +353,24 @@ html, body {
   border-style: outset;
   border: 5px solid #e4c8b5;
   color: #e7e7dc;
-  font-size: 2.3em;
-  font-family: cursive;
+  font-size: 3.3em;
+  font-family: Amatic SC;
   width: 100%;
-  line-height: 1.5em;
+  line-height: 1em;
 }
 
 
 .img-two {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   border-style: outset;
   border-width: thick;
-  justify-content: space-around;
   height: 100%;
   width: inherit;
   margin-top: 2%;
   margin-bottom: 2%;
-  clear: left;
+  margin-right: 0.6%;
+  background-color: #dadae1;
 }
 
 .img-two a {
@@ -374,10 +385,12 @@ html, body {
   border-style: outset;
   border: 5px solid #e4c8b5;
   color: #e7e7dc;
-  font-size: 2em;
-  font-family: cursive;
+  font-size: 2.5em;
+  font-family: Amatic SC;
+  text-shadow: 1.5px 2.5px 3px #7dc6b6;
   width: 100%;
   line-height: 1.4em;
+  cursor: pointer;
 }
 
 .img-two button:hover {
@@ -385,11 +398,17 @@ html, body {
   border-style: outset;
   border: 5px solid #e4c8b5;
   color: #e7e7dc;
-  font-size: 2.3em;
-  font-family: cursive;
+  font-size: 2.8em;
+  font-family: Amatic SC;
   width: 100%;
   line-height: 1.5em;
 }
+
+
+button:active {
+    transform:translateX(3px);
+}
+
 
 .body-last {
   width: 100%;

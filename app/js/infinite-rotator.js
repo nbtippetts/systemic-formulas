@@ -34,7 +34,7 @@ var InfiniteRotatorBox = {
 init: function(){
 
 var initialFadeInBox = 2000;
-var itemIntervalBox = 1000;
+var itemIntervalBox = 4000;
 var fadeTimeBox = 4000;
 var numberOfItemsBox = $('.box-move').length;
 var currentItemBox = 0;
@@ -59,6 +59,8 @@ InfiniteRotatorBox.init();
 InfiniteRotator.init();
 
 });
+
+$('')
 
   $(function fixHead() {
       var headerShow = $(".header");
