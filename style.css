@@ -22,10 +22,11 @@ html, body {
 .header {
   box-sizing: border-box;
   width: 100%;
-  height: 55px;
+  height: 65px;
   display: flex;
   position: fixed;
   top: 0;
+  left: 0;
   background-color: white;
   opacity: 0.8;
   transition-duration: 2s;
@@ -52,13 +53,13 @@ html, body {
   background-image: url('/Users/CQ/documents/systemic-Formulas/the plan logo.png');
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 180px 95px;
+  background-size: 100px 80px;
 }
 
 .showing{
   box-sizing: border-box;
  width: 100%;
- height: 60px;
+ height: 55px;
  background-color: #e7e7dc;
  opacity: .8;
  display: flex;
@@ -127,7 +128,7 @@ html, body {
     height: 100%;
     display: flex;
     justify-content: center;
-    position: fixed;
+    position: absolute;
     top: 5%;
     box-sizing: border-box;
     transition-duration: 2s;
@@ -150,8 +151,8 @@ html, body {
 .logo {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 69%;
+  align-items: center;
+  width: 60%;
   position: fixed;
 }
 
@@ -162,19 +163,15 @@ html, body {
  }
 
 
-.logo span {
-  box-sizing: border-box;
-  color: #101f38;
-  display: flex;
-  flex-direction: column;
-  text-shadow: 2px 2px #e7e7dc;
-}
 
 
 #pde {
-
+  align-items: center;
+  text-shadow: 2px 2px #e7e7dc;
   font-size: 2.5em;
   font-family: serif;
+  margin-top: -10%;
+  color: #101f38;
 }
 
 
@@ -260,6 +257,7 @@ html, body {
 
 }
 
+/*
 .tiffsCard {
   width: 100%;
   height: 100%;
@@ -322,6 +320,9 @@ html, body {
   text-align: center;
 }
 
+
+*/
+
 .img-1 {
   display: flex;
   flex-direction: column;
@@ -377,10 +378,9 @@ html, body {
   margin-bottom: 2%;
   margin-right: 0.6%;
   background-color: #dadae1;
-  border-color:  #101f38;
 }
 
-/*.img-two a {
+.img-two a {
   text-decoration: none;
   border: none;
   display: inline-flex;
@@ -415,7 +415,7 @@ html, body {
 button:active {
     transform:translateY(2px);
 }
-*/
+
 
 .body-last {
   width: 100%;
