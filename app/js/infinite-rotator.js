@@ -66,6 +66,7 @@ $('')
       var headerShow = $(".header");
       var showLogo = $('.logocontainer');
       var logos = $('.logo');
+      var headLogo = $('#logohead');
       $(window).scroll(function() {
           var scroll = $(window).scrollTop();
 
