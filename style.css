@@ -2,7 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
-/*  background-color: #e7e7dc;*/
+ background-color: #e7e7dc;
 }
 
 
@@ -36,9 +36,9 @@ html, body {
 .socialIcons {
     position: fixed;
     display: flex;
-    right: 3px;
-    top: 68px;
+    right: 8.4%;
     flex: 1;
+    font-family: serif;
     align-items: center;
 }
 
@@ -250,7 +250,7 @@ html, body {
 
 }
 
-/*
+
 .tiffsCard {
   width: 100%;
   height: 100%;
@@ -314,7 +314,6 @@ html, body {
 }
 
 
-*/
 
 .img-1 {
   display: flex;
